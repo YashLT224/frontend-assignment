@@ -29,7 +29,7 @@ function App() {
     setTimeout(()=>{
       setCurrentPage(pageNumber);
       setLoadingPage(false); // End loading once page is set
-    },500)
+    },5000)
     
   };
 
