@@ -1,0 +1,83 @@
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .project-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .project-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .project-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .pagination button:focus {
+    outline: none;
+  }
+  
+  .loader {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
