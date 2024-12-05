@@ -35,5 +35,12 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "babel-preset-react-app": "^10.0.0"
+  },
+  "resolutions": {
+    "libnpmversion": "3.0.6",
+    "@babel/core": "^7.16.0"
+  }
 }
